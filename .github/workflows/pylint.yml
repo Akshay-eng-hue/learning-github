@@ -23,4 +23,4 @@ jobs:
         python -m pylint --version  # Check if pylint is correctly installed
     - name: Run pylint
       run: |
-        python -m pylint $(git ls-files '*.py')  # Run pylint
+        python -m pylint $(git ls-files '*.py')  
